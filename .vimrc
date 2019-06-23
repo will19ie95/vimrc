@@ -50,8 +50,13 @@ else
 
 endif " has("autocmd")
 
-set number
-:syntax on
+:syntax on " enable syntax highlighting
+set number "show line number
+set showmatch " highlighting matching [{()}]
+set tabstop=2 " number of visual space per TAB
+set softtabstop=2 " number of spaces in tab when editing
+set incsearch " search as characters are entered
+set hlsearch  " highlight matches
 
 " Add optional packages.
 "
