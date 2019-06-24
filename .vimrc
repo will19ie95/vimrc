@@ -51,7 +51,7 @@ else
 endif " has("autocmd")
 
 :syntax on " enable syntax highlighting
-set number "show line number
+set number relativenumber "show line number and relative number
 set showmatch " highlighting matching [{()}]
 set tabstop=2 " number of visual space per TAB
 set softtabstop=2 " number of spaces in tab when editing
